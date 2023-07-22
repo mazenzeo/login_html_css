@@ -23,13 +23,15 @@ form {
     border: 1px white solid;
     border-radius: 5px;
     padding: 20px;
-    width: 250px;
+    width: 350px;
+    height: 450px;
 
 }
 
 form h1 {
     color: aliceblue;
-    margin-bottom: 10px;
+    margin-bottom: 40px;
+    font-size: 50px;
 }
 
 
@@ -38,9 +40,12 @@ form input {
     margin-top: 10px;
     background-color: transparent;
     border: 1px solid darkgray;
-    padding: 5px;
+    padding-right: 100px;
+    padding-bottom: 11px;
+
     outline: none;
-    font-size: 14px;
+    font-size: 17px;
+    
     
 }
 
@@ -50,6 +55,8 @@ form button {
     border: 1px solid rgb(255, 255, 255);
     width:150px;
     background-color:azure;
+    
+
    
 }
 
@@ -61,5 +68,5 @@ form .mazen {
 }
 
 form .mazen .list{
-    transform: translate(0%,9%);
+    transform: translate(0%,20%);
 }
